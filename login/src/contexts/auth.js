@@ -5,7 +5,7 @@ export const AuthContext = createContext({});
 export const AuthProvider = ({children}) => {
 
     const [user, setUser] = useState();
-
+    
     useEffect(() => {
         {/*Pega dados do localstorage*/}
         const userToken = localStorage.getItem("user_token");
