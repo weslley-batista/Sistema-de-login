@@ -25,6 +25,6 @@ const RoutesApp = () => {
       </Fragment>
     </BrowserRouter>
   )
-}
+};
 
 export default RoutesApp;
